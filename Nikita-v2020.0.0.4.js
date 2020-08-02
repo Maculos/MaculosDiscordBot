@@ -25,7 +25,7 @@ bot.on('message', message=>{
 const infoEmbed = new Discord.MessageEmbed()
 .setColor('#ae00ff')
 .setTitle('Nikita Bot v2020.0.0.3')
-.setUrl('https://github.com/Nikita-Khrushchev')
+.setURL('https://github.com/Nikita-Khrushchev')
 .setDescription('All hail to the Soviet Union!')
 .addField('Commands', 'For a list of commands do "n! commands"', true)
 .setImage('https://github.com/Nikita-Khrushchev/hostedImages/blob/master/nikita.jpg?raw=true')
