@@ -1,0 +1,14 @@
+{
+  "name": "Nikita-Khrushchev",
+  "version": "5.0.0",
+  "description": "a lil dumb bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikita-Khrushchev",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
