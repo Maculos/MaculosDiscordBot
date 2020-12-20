@@ -3,20 +3,20 @@ const bot = new Discord.Client();
 const token = 'TOKEN-HERE';
 const infoEmbed = new Discord.MessageEmbed()
 .setColor('#ae00ff')
-.setTitle('Nikita Bot v2020.0.0.3')
-.setURL('https://github.com/Nikita-Khrushchev')
+.setTitle('Maculos Bot v2020.0.0.5')
+.setURL('https://github.com/Maculos')
 .setDescription('All hail to the Soviet Union!')
 .addField('Commands', 'For a list of commands do "n! commands"', true)
-.setImage('https://github.com/Nikita-Khrushchev/hostedImages/blob/master/nikita.jpg?raw=true')
+.setImage('https://github.com/Maculos/hostedImages/blob/master/nikita.jpg?raw=true')
 .setFooter('Source code to this bot can be found on Github. Do "n! github" or click the link.')
 const githubEmbed = new Discord.MessageEmbed()
 .setColor('#ae00ff')
-.setTitle('Nikita-Khrushchev On Github')
-.setURL('https://github.com/Nikita-Khrushchev')
+.setTitle('Maculos On Github')
+.setURL('https://github.com/Maculos')
 .setImage('https://avatars0.githubusercontent.com/u/63527367?s=460&u=639462cb6081e5b324d04e60f6ecb1d431bb264c&v=4')
 const addEmbed = new Discord.MessageEmbed()
 .setColor('#ae00ff')
-.setTitle('Add Nikita Khrushchev To Your Server!')
+.setTitle('Add Maculos To Your Server!')
 .setURL('https://discord.com/oauth2/authorize?client_id=738936373217853450&permissions=0&scope=bot')
 const suggestEmbed = new Discord.MessageEmbed()
 .setColor('#ae00ff')
@@ -48,7 +48,7 @@ const updateEmbed = new Discord.MessageEmbed()
 
 bot.on('ready', () =>{
     console.log('This Bot Is Online!');
-    bot.user.setActivity('Release 4 Is Out! Do "n! update" for patch notes.');
+    bot.user.setActivity('Release 5 Is Out! Do "n! update" for patch notes.');
 })
 bot.on('message', message=>{
     if(message.content === "n! info"){
