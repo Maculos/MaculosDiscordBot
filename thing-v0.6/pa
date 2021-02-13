@@ -1,6 +1,6 @@
 {
   "name": "Maculos",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "a lil dumb bot",
   "main": "index.js",
   "scripts": {
